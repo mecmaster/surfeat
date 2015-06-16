@@ -1,0 +1,64 @@
+body{
+	 	margin: 0;
+	 	padding: 0;
+	 	font-family: sans-serif;
+	 	background: #333;
+ 	}
+ 	iframe{
+/*	 	position: absolute;*/
+	 	background: #333;
+ 	}
+ 	.wifi_header{
+	 	line-height: 2em;
+	 	height: 1.8em;
+	 	background: #333;
+	 	
+//	 	position: absolute; 
+	 	top: 0;
+//		z-index: 10000;
+
+//	 	width: 100%;
+
+//	 	border-bottom-right-radius: 3px;
+//	 	border-bottom-left-radius: 3px;
+
+/*	 	padding-left: 60px; */
+	 	color: white;
+/*		font-size: 1.1em; **/
+		text-align: right;
+ 	}
+ 	#timer{
+	 	float: right;
+	 	background: none;
+ 	}
+ 	.wifi_header a{
+	 	
+	 	
+	 	width: 80px;
+	 	float: left;
+	 	margin-left: 5px;
+	 	
+ 	}
+ 	.wifi_header a.wifiua{
+	 	background: url(imgs/startpage_logo.png) left center no-repeat;
+	 	margin-left: 50px;
+	 	background-size:  auto 80%;
+	 	height: 2em;
+ 	}
+ 	a.kmda{
+	 	background: url(imgs/kmda_logo.png) left center no-repeat;
+	 	height: 40px;
+	 	
+ 	}
+ 	.wifi_header #timer,
+ 	.wifi_header #goweb
+ 	{
+	 	margin-right: 2%;
+ 	}
+ 	.form{
+	 	display: none;
+ 	}
+ 	.goweb{
+	 	color: white;
+	 	text-decoration: none;
+ 	}

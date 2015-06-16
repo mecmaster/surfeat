@@ -1,0 +1,33 @@
+
+
+<html>
+<head></head>
+<body>
+	<object type="text/html" data="1.html"></object>
+	
+<script type="text/javascript">
+    document.write(getContent(2.html));
+</script>
+
+<?php
+    $myFile = "list.txt";
+    $lines = file($myFile);
+    echo $lines[1];
+?>
+<a href="echo $lines[0]">link 1</a>
+<a href="<?php echo $lines[1];?>">link 2</a>
+<a href="<?php echo $lines[2];?>">link 3</a>
+<a href="<?php echo $lines[3];?>">link 4</a>
+
+<script type="text/javascript">
+ $("document").ready(function() {
+        $('#Header').load('2.html');
+        
+  });
+</script>
+
+<div id="Header"></div>
+
+</body>
+
+</html>

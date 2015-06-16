@@ -1,0 +1,177 @@
+<html>
+<head>
+
+<title>Triolan.mobi 
+    </title>
+<meta http-equiv="refresh" content="18;http://google.com/" />
+    <meta name="keywords" content="Triolan.mobi"> 
+    <meta name="description" content="Triolan.mobi">
+    <meta name="robots" content="all">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="-1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=500, initial-scale=0.5">
+   <!--PAGELOADER-->
+<link rel="stylesheet" type="text/css" href="pageloader/pageloader.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
+<script src="pageloader/pageloader.js"></script>  
+<!-- timer -->
+<script src="timer/countdown.js"></script>
+
+<script>
+function getParam ( sname )
+{
+  var params = location.search.substr(location.search.indexOf("?")+1);
+  var sval = "";
+  params = params.split("&");
+    // split param and value into individual pieces
+    for (var i=0; i<params.length; i++)
+       {
+         temp = params[i].split("=");
+         if ( [temp[0]] == sname ) { sval = temp[1]; }
+       }
+  return sval;
+}
+
+</script>
+<script>
+
+var admid = "admixer_async_1239523694";
+var admz = "627a4d01-fcd7-4f2e-adaa-20e1936843d5";
+
+if (getParam("admz") != "" && getParam("admid") != "") {
+admz = getParam("admz");
+admid = getParam("admid");
+console.log(admid)
+console.log(admz)
+};   
+
+</script>
+
+
+
+<!--Блок подключения библиотеки скриптов Admixer-->
+<script type='text/javascript'>
+(function () {
+ var w = window, d = document;
+ w.admixZArr = (w.admixZArr || []);
+ w.admixerSmOptions = (w.admixerSmOptions || {});
+ w.admixerSmOptions.showAdsOnLoad = true;
+ w.admixerSmOptions.isScannerEnabled = false;
+ if (!w.admixerSm) {
+     var adms = document.createElement('script');
+     adms.async = true;
+     adms.type = 'text/javascript';
+     adms.src = 'http://ua.cdn.admixer.net/scriptlib/asm_nobehav.js';
+     var node = d.getElementsByTagName('script')[0];
+     node.parentNode.insertBefore(adms, node);
+ }
+})();
+</script>
+<!--Конец блока подключения библиотеки скриптов Admixer-->
+
+
+</head>
+<body bgcolor="#eeedeb">
+
+<!--текст под баннером-->
+<div id="fon" style="background:#313d3d; position:absolute; z-index: 28; width:100%; height:200%; top:0; left:0; right:0; text-align:center;">
+     <br> <p style="color:#0099CC; text-align:center; font-family:Sans-serif; font-weight:bold;">LOADING</p>
+<!-- PROGRESS BALL LOADER -->
+<div class="container">
+  <ul id="progress">
+    <li><div id="layer1" class="ball"></div><div id="layer7" class="pulse"></div></li>
+    <li><div id="layer2" class="ball"></div><div id="layer8" class="pulse"></div></li>
+    <li><div id="layer3" class="ball"></div><div id="layer9" class="pulse"></div></li>
+    <li><div id="layer4" class="ball"></div><div id="layer10" class="pulse"></div></li>
+    <li><div id="layer5" class="ball"></div><div id="layer11" class="pulse"></div></li>
+    </ul>
+</div>
+<!-- END PROGRESS BALL LOADER -->
+<p style="color:white"><br><br><br><br>Дождитесь загрузки рекламного баннера,<br> а затем - подключитесь к бесплатному Интернету. <br></p>
+</div>
+<!--текст под баннером конец-->
+
+<div id="reklama" style="position:absolute; z-index: 30; top:0; bottom:0; left:0; right:0; text-align:center;">
+
+<!-- Установите этот блок в том месте, где должен отображаться банер    -->
+<div id="admixerid"></div>
+<script type="text/javascript">
+    window.admixZArr = (window.admixZArr || []);
+    window.admixZArr.push({ z: admz, ph: admid});
+    console.log(admid, admz)
+</script>                                                                                                 
+
+</div>
+
+<script type="text/javascript">
+var div_node = document.getElementById('admixerid');
+div_node.id = admid;
+</script>
+
+<!--timer -->
+<div id="timer" style="position:fixed; z-index: 50; top:30; right:20; text-align:center;">
+реклама
+<script type="text/javascript">
+test = function() 
+{
+//  document.getElementById("reklama").style.display='none'; //
+// document.getElementById("fon").style.display='none'; //
+// document.getElementById("timer").style.display='none'; //
+// document.getElementById("next").style.display='none'; //
+document.location="http://google.com";}
+
+var myCountdown2 = new Countdown({
+									time: 15, 
+									width:50, 
+									height:50, 
+										rangeHi:"second",	// <- no comma on last item!
+									onComplete:test
+									});
+</script>
+</div>
+<!--timer end-->
+
+<!--Пропустить рекламу через 5 секунд кнопка-->
+<script type="text/javascript">
+            setTimeout(function() {
+                var el = document.getElementById('next');
+                if( el ) 
+                    el.style.display = 'block';
+            }, 5000); // 5sec
+        </script>
+<div id="next" style="position:absolute; display:none; z-index: 35; top:120; bottom:0; right:0;"><a href="http://google.com/"><img src="timer/next.png" width="80"></a></div>
+<!--кнопка-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46011437-2', 'wifi.ua');
+ ga('send', 'pageview', {
+  'page': '/school/',
+  'title': 'school adv'
+});
+</script>
+<!--LANDING PAGE--> 
+<br>
+<!--head logo, button-->
+<div style="text-align:center;">
+
+<!-- <a href="http://triolan.mobi/"><img src="img/logo.jpg" align="center" width="300" alt="кнопка подключения к интернету после просмотра рекламы в вайфай сети ресторана"></a> -->
+<p>
+<div align="center" width="50%">
+</div>
+<br>
+</div>
+<!--banner SurfEat-->
+<div style="text-align:center;">
+<!-- <a href="http://google.com.ua/"><img src="img/b.png" align="center" width="200" alt="кнопка подключения к интернету после просмотра рекламы в вайфай сети ресторана"></a>	-->
+
+</div>
+
+</body>
+</html>

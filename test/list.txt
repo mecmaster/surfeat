@@ -1,0 +1,4 @@
+http://google.com
+http://ya.ru
+http://bing.com
+http://rambler.ru
